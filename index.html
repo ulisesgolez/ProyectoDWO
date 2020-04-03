@@ -6,25 +6,25 @@
         <title>Ulises González</title>
     </head>
     <body>
-        <header>
-            <figure>
-                <img src="./images/logo-proyectoDWO.png" alt="logo-ProyectoDWO" width="250px"/>
+        <header class="header">
+            <figure class="logoContainer">
+                <img class="logo" src="./images/logo-proyectoDWO.png" alt="logo-ProyectoDWO" width="250px"/>
             </figure>
-            <nav>
+            <nav class="menu">
                 <ul>
                     <li>
-                        <a href="#Portafolio">Portafolio</a>
+                        <a class="link" href="#Portafolio">Portafolio</a>
                     </li>
                     <li>
-                        <a href="#Eventos">Experiencia</a>
+                        <a class="link" href="#Eventos">Experiencia</a>
                     </li>
                     <li>
-                        <a href="#Contacto">Trabajemos juntos</a>
+                        <a class="link" href="#Contacto">Trabajemos juntos</a>
                     </li>
                 </ul>
             </nav>
         </header>
-        <main>
+        <main class="hero">
             <h1>
                 ¡Hola! soy <strong>Ulises González</strong><br/>
                 Desrrollador <strong>Web</strong> con pasión<br/>
@@ -34,42 +34,42 @@
                 <img src="./images/Selfie.jpg" alt="Imagen principal" width="250px"/>
             </figure>
         </main>
-        <section id="Portafolio">
+        <section id="Portafolio" class="portfolio">
             <h2>Portafolio (Proyectos destacados)</h2>
-            <article>
-                <h3>Proyecto</h3>
-                <p><small><b>Fecha: </b>02/05/2020</small></p>
-                <p><small><b>Puedes verlo en: </b><a href="">www.proyecto.com</a></small></p>
+            <article class="proyect">
+                <h3 class="proyect-tile">Proyecto</h3>
+                <p class="proyect-date"><small><b>Fecha: </b>02/05/2020</small></p>
+                <p class="proyect-link"><small><b>Puedes verlo en: </b><a href="">www.proyecto.com</a></small></p>
                 <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi reprehenderit omnis eum et, reiciendis dignissimos, blanditiis magni praesentium tenetur, magnam suscipit id? A officiis veritatis aspernatur doloribus, beatae culpa corporis?
                 </p>
-                <figure>
-                    <img src="./images/platzi-video-react-native.webp" alt="imagen del proyecto" width="250px"/>
+                <figure class="proyect-imageContainer">
+                    <img class="proyect-image" src="./images/platzi-video-react-native.webp" alt="imagen del proyecto" width="250px"/>
                 </figure>
             </article>
         </section>
         <section id="Eventos">
             <h2>Más sebre mi experiencia</h2>
-            <article>
-                <figure>
-                    <img src="./images/platzi-conf.jpg" alt="imagen del evento" width="250px"/>
+            <article class="event">
+                <figure class="event-imageContainer">
+                    <img class="event-image" src="./images/platzi-conf.jpg" alt="imagen del evento" width="250px"/>
                 </figure>
                 <div>
-                    <h3>Evento</h3>
-                    <p>
+                    <h3 class="event-title">Evento</h3>
+                    <p class="event-description">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, laudantium? Libero nobis quibusdam, commodi mollitia architecto, voluptatum voluptatibus hic laudantium assumenda molestiae ullam, dolores illo exercitationem? Iste neque doloribus animi.
                     </p>
-                    <a href="">Ver</a>
+                    <a class="event-link" href="">Ver</a>
                 </div>
             </article>
         </section>
-        <section id="Contacto">
-            <form action="">
+        <section id="Contacto" class="contact">
+            <form action="" class="form-email">
                 <h3>¿Creamos algo juntos?</h3>
                 <input type="text" placeholder="Déjame tu email"/>
                 <input type="submit" value="Enviar"/>
             </form>
         </section>
-        <section>Sección footer</section>
+        <section class="footer">Sección footer</section>
     </body>
 </html>
