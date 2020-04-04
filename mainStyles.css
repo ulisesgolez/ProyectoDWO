@@ -28,6 +28,10 @@ h1{
 h1 strong{
     color: #75AABA;
 }
+.proyect{
+    border: 1px solid gray;
+    border-radius: 10px;
+}
 .proyect-details{
     width: 500px;
 }
