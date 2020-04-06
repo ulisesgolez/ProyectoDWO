@@ -33,11 +33,13 @@ body{
 .menu ul li{
     height: inherit;
     display: inherit;
-    align-items: center;
     margin: 0 20px;
 }
 .link{
+    height: inherit;
     display: block;
+    display: inherit;
+    align-items: center;
     color: #FFFFFF;
     text-decoration: none;
 }
