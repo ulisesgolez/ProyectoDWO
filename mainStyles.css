@@ -33,18 +33,19 @@ body{
 .menu ul li{
     height: inherit;
     display: inherit;
-    margin: 0 20px;
+    margin: 0 5px;
 }
 .link{
     height: inherit;
     display: block;
+    padding: 0 15px;
     display: inherit;
     align-items: center;
     color: #FFFFFF;
     text-decoration: none;
 }
 .hero{
-    height: 250px;
+    height: 300px;
     padding-left: 20px;
     background-image: url(./images/Selfie.jpg);
     background-color: #1D252C;
@@ -84,4 +85,21 @@ h1 strong{
 }
 .proyect-imageContainer{
     width: 500px;
+}
+.footer{
+    background-color: #1D252C;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
+.cursoPlatzi{
+    display: inherit;
+    align-items: center;
+}
+.cursoPlatzi p img{
+    width: 80px;
+    vertical-align: middle;
+}
+.agradecimiento p a{
+    color: #75AABA;
 }
