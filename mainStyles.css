@@ -65,11 +65,20 @@ h1{
     letter-spacing: -0.2px;
     color: #FFFFFF;
 }
+h2{
+    color: #75AABA;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 10px 0 30px 25px;
+}
 h1 strong{
     color: #75AABA;
 }
 .portfolio{
     background-color: #FAFAFA;
+    padding: 20px;
 }
 .proyect{
     background-color: #FFFFFF;
@@ -79,12 +88,30 @@ h1 strong{
     margin-bottom: 15px;
     padding: 20px;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .proyect-details{
     width: 500px;
 }
+.proyect-title{
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.proyect-date,
+.proyect-link{
+    margin: 10px 0;
+}
+.proyect-description{
+    font-size: 20px;
+}
 .proyect-imageContainer{
-    width: 500px;
+    width: 333px;
+    margin: 0;
+}
+.proyect-image{
+    width: inherit;
 }
 .footer{
     background-color: #1D252C;
