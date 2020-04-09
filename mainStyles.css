@@ -144,7 +144,7 @@ h1 strong{
     margin-top: -40px;
     padding: 20px;
     text-align: center;
-    background-color: white;
+    background-color: #FFFFFF;
     position: relative;
     border-radius: 3px;
 }
@@ -153,6 +153,39 @@ h1 strong{
     padding: 5px 20px;
     text-decoration: none;
     color: #75AABA;
+}
+.contact{
+    background-color: #75AABA;
+    color: #FFFFFF;
+    padding: 40px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.form h3{
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5em;
+}
+.form input{
+    margin: 20px 0;
+    display: block;
+}
+.form-email{
+    width: 300px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+.form-button{
+    background-color: #75AABA;
+    font-size: 20px;
+    color: #FFFFFF;
+    width: 150px;
+    height: 40px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
 }
 .footer{
     background-color: #1D252C;
