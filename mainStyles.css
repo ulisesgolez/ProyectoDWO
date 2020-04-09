@@ -113,6 +113,47 @@ h1 strong{
 .proyect-image{
     width: inherit;
 }
+.event-list h2{
+    margin: 0;
+    margin-left: 45px;
+}
+.event-container{
+    padding: 30px 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.event{
+    width: 450px;
+    margin: 0 15px 30px;
+    background-color: #F4FBFF;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.event-imageContainer{
+    margin: 0;
+    width: inherit;
+}
+.event-image{
+    width: inherit;
+    height: 250px;
+    object-fit: cover;
+}
+.event-details{
+    width: 350px;
+    margin: 20px auto;
+    margin-top: -40px;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    position: relative;
+    border-radius: 3px;
+}
+.event-link{
+    border: 1px solid #75AABA;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #75AABA;
+}
 .footer{
     background-color: #1D252C;
     color: #FFFFFF;
